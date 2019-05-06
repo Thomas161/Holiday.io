@@ -1,0 +1,14 @@
+{
+  "name": "holiday",
+  "version": "1.0.0",
+  "description": "'holiday app'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tom Magin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
