@@ -3,21 +3,20 @@ ul {
   font-size: 1.5em;
 }
 li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.capacity {
-  color: gray;
-}
-
-.booked {
-  color: darkcyan;
+label {
+  font-style: italic;
 }
 h1 {
-  color: green;
+  color: rgb(248, 244, 25);
   margin: 40px;
 }
 .container {
-  background-color: gray;
-  width: 400px;
+  border-radius: 20px;
+  background-color: #778899;
+  width: 370px;
+  height: 500px;
 }
 .column {
   display: flex;
@@ -25,11 +24,11 @@ h1 {
   top: 20%;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  /* flex: 1; */
 }
 button {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   text-align: center;

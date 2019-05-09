@@ -1,8 +1,7 @@
 let h1 = {
   name: "Paradise",
-  pool: true,
   capacity: 60,
-  booked: 10,
+  booked: 50,
   roomTypes: ["single", "double", "suite"]
 };
 
@@ -14,9 +13,6 @@ r.textContent = h1.capacity;
 
 let b = document.getElementById("booked");
 b.textContent = h1.booked;
-
-let p = document.getElementById("pool");
-p.textContent = h1.pool;
 
 let rT = document.getElementById("roomTypes");
 rT.textContent = h1.roomTypes;

@@ -4,6 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
     <title>Holiday</title>
   </head>
   <body>
@@ -12,21 +18,26 @@
         <h1 id="hotel"></h1>
 
         <ul>
-          <label>Rooms Capacity</label>
+          <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
+
           <li id="capacity"></li>
           <br />
-          <label>Booked</label>
+          <label><i class="fas fa-address-card"></i>Booked</label>
           <li id="booked"></li>
           <br />
           <label>Pool</label>
-          <li id="pool"></li>
+          <br />
+          <i class="fas fa-check" style="color: darkgreen"></i>
+          <br />
           <br />
           <label>Room Types</label>
-          <li id="roomTypes"></li>
+          <li id="roomTypes" style="font-size: 0.70em"></li>
         </ul>
       </div>
       <button onclick="bookRoom()">Book Room</button>
-      <button onclick="cancelRoom()">Cancel Booking</button>
+      <button onclick="cancelRoom()" style="background-color: firebrick">
+        Cancel Booking
+      </button>
     </div>
 
     <script type="text/javascript" src="main.js"></script>
