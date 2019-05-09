@@ -3,31 +3,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Holiday</title>
   </head>
   <body>
-    <h1 id="hotel"></h1>
-    <hr />
-    <ul>
-      <label>Rooms</label>
-      <li id="rooms"></li>
-      <br />
-      <label>Booked</label>
-      <li id="booked"></li>
-      <br />
-      <label>Pool</label>
-      <li id="pool"></li>
-      <br />
-      <label>Room Types</label>
-      <li id="roomTypes"></li>
-      <br />
-      <label>Available</label>
-      <p id="avail"></p>
-    </ul>
+    <div class="container">
+      <div class="column">
+        <h1 id="hotel"></h1>
 
-    <button onclick="bookRoom()">Book Room</button>
-    <button onclick="cancelRoom()">Cancel Booking</button>
+        <ul>
+          <label>Rooms Capacity</label>
+          <li id="capacity"></li>
+          <br />
+          <label>Booked</label>
+          <li id="booked"></li>
+          <br />
+          <label>Pool</label>
+          <li id="pool"></li>
+          <br />
+          <label>Room Types</label>
+          <li id="roomTypes"></li>
+        </ul>
+      </div>
+      <button onclick="bookRoom()">Book Room</button>
+      <button onclick="cancelRoom()">Cancel Booking</button>
+    </div>
+
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

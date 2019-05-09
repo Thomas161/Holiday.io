@@ -1,0 +1,43 @@
+ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+li {
+}
+.capacity {
+  color: gray;
+}
+
+.booked {
+  color: darkcyan;
+}
+h1 {
+  color: green;
+  margin: 40px;
+}
+.container {
+  background-color: gray;
+  width: 400px;
+}
+.column {
+  display: flex;
+  margin: 60px;
+  top: 20%;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+button {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
