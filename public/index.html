@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <div class="column">
-        <h1 id="hotel"></h1>
+        <h1 id="hotel" style="color: rgb(248, 244, 25)"></h1>
 
         <ul>
           <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
@@ -25,21 +25,52 @@
           <label><i class="fas fa-address-card"></i>Booked</label>
           <li id="booked"></li>
           <br />
-          <label>Pool</label>
+          <label> <i class="fas fa-times" style="color: green"></i>Cable</label>
           <br />
-          <i class="fas fa-check" style="color: darkgreen"></i>
+          <label
+            ><i class="fas fa-check" style="color: darkgreen"></i>Pool</label
+          >
           <br />
           <br />
           <label>Room Types</label>
           <li id="roomTypes" style="font-size: 0.70em"></li>
         </ul>
-      </div>
-      <button onclick="bookRoom()">Book Room</button>
-      <button onclick="cancelRoom()" style="background-color: firebrick">
-        Cancel Booking
-      </button>
-    </div>
 
+        <button onclick="bookRoom()">Book Room</button>
+        <button onclick="cancelRoom()" style="background-color: firebrick">
+          Cancel Booking
+        </button>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="column2">
+        <h1 id="hotel2" style="color: rgb(248, 244, 25)"></h1>
+
+        <ul>
+          <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
+
+          <li id="capacity2"></li>
+          <br />
+          <label><i class="fas fa-address-card"></i>Booked</label>
+          <li id="booked2"></li>
+          <br />
+          <label> <i class="fas fa-check" style="color: green"></i>Cable</label>
+          <br />
+          <label> <i class="fas fa-check" style="color: green"></i>Pool</label>
+          <br />
+          <i class="fas fa-remove" style="color: red"></i>
+          <br />
+          <br />
+          <label>Room Types</label>
+          <li id="roomTypes2" style="font-size: 0.70em"></li>
+        </ul>
+
+        <button onclick="bookRoom2()">Book Room</button>
+        <button onclick="cancelRoom2()" style="background-color: firebrick">
+          Cancel Booking
+        </button>
+      </div>
+    </div>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

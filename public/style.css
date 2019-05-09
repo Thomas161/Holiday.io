@@ -1,6 +1,6 @@
 ul {
   list-style: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,14 +9,27 @@ label {
   font-style: italic;
 }
 h1 {
-  color: rgb(248, 244, 25);
-  margin: 40px;
+  margin: 5%;
 }
+body {
+  background-color: rgba(0, 0, 0, 0.959);
+}
+
 .container {
   border-radius: 20px;
   background-color: #778899;
   width: 370px;
   height: 500px;
+  margin: 8%;
+}
+.container2 {
+  border-radius: 20px;
+  background-color: #778899;
+  width: 370px;
+  height: 500px;
+  position: relative;
+  left: 55%;
+  bottom: 85%;
 }
 .column {
   display: flex;
@@ -24,7 +37,16 @@ h1 {
   top: 20%;
   flex-direction: column;
   flex-basis: 100%;
-  /* flex: 1; */
+  flex: 1;
+}
+
+.column2 {
+  display: flex;
+  margin: 60px;
+  top: 20%;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 button {
   display: inline-block;
