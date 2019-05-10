@@ -12,9 +12,54 @@ h1 {
   margin: 5%;
 }
 body {
-  background-color: rgba(0, 0, 0, 0.959);
+  background-color: purple;
+}
+#menu {
+  width: 30px;
+  height: 35px;
+  margin: 30px 0 20px 20px;
+}
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  border-radius: 5px;
+}
+#bar1 {
+  transform: translateY(-4px);
+}
+#bar3 {
+  transform: translateY(4px);
+}
+.change .bar {
+  background-color: white;
 }
 
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3 {
+  transform: translateY(-4px) rotateZ(45deg);
+}
+.change #bar2 {
+  opacity: 0;
+}
+.nav {
+  display: none;
+}
+.change {
+  display: block;
+}
+
+/* .list1 {
+  display: none;
+  overflow: hidden;
+}
+.list2 {
+  display: none;
+  overflow: hidden;
+} */
 .container {
   border-radius: 20px;
   background-color: #778899;
@@ -31,25 +76,25 @@ body {
   left: 55%;
   bottom: 85%;
 }
-.column {
+/* .column {
   display: flex;
   margin: 60px;
   top: 20%;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-}
+} */
 
-.column2 {
+/* .column2 {
   display: flex;
   margin: 60px;
   top: 20%;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-}
+} */
 button {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;

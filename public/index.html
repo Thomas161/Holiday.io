@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -13,46 +13,44 @@
     <title>Holiday</title>
   </head>
   <body>
-    <div class="container">
-      <div class="column">
+    <div id="menu-bar">
+      <div id="menu" onclick="dropDown()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <ul id="nav" class="nav">
         <h1 id="hotel" style="color: rgb(248, 244, 25)"></h1>
-
-        <ul>
-          <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
-
-          <li id="capacity"></li>
-          <br />
-          <label><i class="fas fa-address-card"></i>Booked</label>
-          <li id="booked"></li>
-          <br />
-          <label> <i class="fas fa-times" style="color: green"></i>Cable</label>
-          <br />
-          <label
-            ><i class="fas fa-check" style="color: darkgreen"></i>Pool</label
-          >
-          <br />
-          <br />
-          <label>Room Types</label>
-          <li id="roomTypes" style="font-size: 0.70em"></li>
-        </ul>
-
+        <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
+        <li id="capacity" class="cap"></li>
+        <br />
+        <label><i class="fas fa-address-card"></i>Booked</label>
+        <li id="booked" class="book"></li>
+        <br />
+        <label> <i class="fas fa-times" style="color: green"></i>Cable</label>
+        <br />
+        <label><i class="fas fa-check" style="color: darkgreen"></i>Pool</label>
+        <br />
+        <br />
+        <label>Room Types</label>
+        <li id="roomTypes" class="RT" style="font-size: 0.70em"></li>
+        <hr />
         <button onclick="bookRoom()">Book Room</button>
         <button onclick="cancelRoom()" style="background-color: firebrick">
           Cancel Booking
         </button>
-      </div>
+      </ul>
     </div>
-    <div class="container2">
-      <div class="column2">
+    <!-- <div id="menu-bar2">
+      <div id="menu2">
         <h1 id="hotel2" style="color: rgb(248, 244, 25)"></h1>
-
-        <ul>
+        <i class="fa fa-bars"></i>
+        <ul id="list2">
           <label> <i class="fas fa-hotel"></i>Rooms Capacity</label>
-
-          <li id="capacity2"></li>
+          <li id="capacity2" class="cap2"></li>
           <br />
           <label><i class="fas fa-address-card"></i>Booked</label>
-          <li id="booked2"></li>
+          <li id="booked2" class="book2"></li>
           <br />
           <label> <i class="fas fa-check" style="color: green"></i>Cable</label>
           <br />
@@ -62,7 +60,7 @@
           <br />
           <br />
           <label>Room Types</label>
-          <li id="roomTypes2" style="font-size: 0.70em"></li>
+          <li id="roomTypes2" class="RT2" style="font-size: 0.70em"></li>
         </ul>
 
         <button onclick="bookRoom2()">Book Room</button>
@@ -70,7 +68,7 @@
           Cancel Booking
         </button>
       </div>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
+    </div> -->
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

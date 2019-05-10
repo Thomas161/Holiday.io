@@ -17,6 +17,11 @@ b.textContent = h1.booked;
 let rT = document.getElementById("roomTypes");
 rT.textContent = h1.roomTypes;
 
+function dropDown() {
+  document.getElementById("menu").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+}
+
 function bookRoom() {
   let update = document.getElementById("booked");
   update.textContent = ++h1.booked;
