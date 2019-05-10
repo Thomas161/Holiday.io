@@ -1,3 +1,5 @@
+https://badge.fury.io/js/npm.svg
+
 # Holiday.io
 
 Holiday Booking App
