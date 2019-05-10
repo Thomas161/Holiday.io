@@ -1,4 +1,5 @@
-https://badge.fury.io/js/npm.svg
+![npm]
+(https://badge.fury.io/js/npm.svg)
 
 # Holiday.io
 
@@ -14,11 +15,7 @@ Docker
 
 Simple holiday booking app that statically serves up html using express server, with some hamburger/css menu toggling.
 
-#
-
-node
-
-#
+# node
 
 ```python
 const express = require("express");
@@ -29,11 +26,9 @@ app.use(express.static("public"));
 app.listen(4400, () => console.log("Listening on 4400"));
 ```
 
-#
+# Dockerfile
 
-Dockerfile
 
-#
 
 ```python
 FROM node:8
