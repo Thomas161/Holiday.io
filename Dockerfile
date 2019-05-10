@@ -1,6 +1,6 @@
 FROM node:8
 
-WORKDIR /Users/tommydates/Desktop/holiday/public
+WORKDIR /public
 
 COPY package*.json ./
 

@@ -21,6 +21,10 @@ function dropDown() {
   document.getElementById("menu").classList.toggle("change");
   document.getElementById("nav").classList.toggle("change");
 }
+function dropDown2() {
+  document.getElementById("menu2").classList.toggle("change");
+  document.getElementById("nav2").classList.toggle("change");
+}
 
 function bookRoom() {
   let update = document.getElementById("booked");

@@ -1,6 +1,7 @@
 ul {
   list-style: none;
   font-size: 1.2em;
+  line-height: 1em;
 }
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -14,10 +15,16 @@ h1 {
 body {
   background-color: purple;
 }
+
 #menu {
   width: 30px;
   height: 35px;
-  margin: 30px 0 20px 20px;
+  margin: 20px 0 20px 20px;
+}
+#menu2 {
+  width: 30px;
+  height: 35px;
+  margin: 20px 0 20px 20px;
 }
 .bar {
   height: 5px;
@@ -26,10 +33,17 @@ body {
   display: block;
   border-radius: 5px;
 }
+
 #bar1 {
   transform: translateY(-4px);
 }
 #bar3 {
+  transform: translateY(4px);
+}
+#bar4 {
+  transform: translateY(-4px);
+}
+#bar6 {
   transform: translateY(4px);
 }
 .change .bar {
@@ -45,8 +59,31 @@ body {
 .change #bar2 {
   opacity: 0;
 }
+.change #bar4 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar6 {
+  transform: translateY(-4px) rotateZ(45deg);
+}
+.change #bar5 {
+  opacity: 0;
+}
 .nav {
   display: none;
+  background-color: gray;
+  height: 420px;
+  width: 300px;
+  margin: 10%;
+}
+.change {
+  display: block;
+}
+.nav2 {
+  display: none;
+  background-color: gray;
+  height: 420px;
+  width: 300px;
+  margin: 10%;
 }
 .change {
   display: block;
