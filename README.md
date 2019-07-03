@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/npm.png)](https://nodei.co/npm/npm/)
+[![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
 
 # Holiday.io
 
