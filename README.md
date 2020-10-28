@@ -2,16 +2,6 @@
 
 # Holiday.io
 
-Holiday Booking App
-
-#
-
-Javascript
-Node
-Docker
-
-#
-
 Simple holiday booking app that statically serves up html using express server, with some hamburger/css menu toggling.
 
 # node
@@ -26,8 +16,6 @@ app.listen(4400, () => console.log("Listening on 4400"));
 ```
 
 # Dockerfile
-
-
 
 ```python
 FROM node:8
